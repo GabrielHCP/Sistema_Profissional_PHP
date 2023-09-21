@@ -1,0 +1,19 @@
+{
+    "name": "gabriel/php-pro",
+    "authors": [
+        {
+            "name": "GabrielHCP",
+            "email": "gabrielcanal360@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
